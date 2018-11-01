@@ -1,0 +1,13 @@
+import React, {Component} from 'react';
+import { Text, View, Image} from 'react-native';
+
+export default class SimpleComponent1 extends Component {
+	render() {
+		return (
+			<View>
+				<Text>Simple Component 1 test</Text>
+				<Image source={require('./giphy.gif')} />
+			</View>
+			);
+	}
+}
